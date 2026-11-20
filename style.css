@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Forum:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Forum", Laila, serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #294B35;
+  background-color: #FFE9EF;
+}
+
+header {
+  background-color: #294B35;
+  color: #FFE9EF;
+  text-align: center;
+  padding: 1rem;
+}
+
+header img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border: 0.5rem solid #FFD6E1;
+  border-radius: 50%;
+}
+
+h1, h2, h3 {
+  font-family: "Candal", Poppins, sans-serif;
+}
+
+h1 {
+  font-size: 4.2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  border-bottom: 0.125rem solid #294B35;
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+main {
+  max-width: 75rem;
+  margin: 2rem auto;
+  padding: 0 1.25rem;
+}
+
+section {
+  background-color: #E5EBDD;
+  border: none;
+  border-radius: 5rem;
+  padding: 3.00rem;
+  margin-bottom: 1.5rem;}
+
+pre {
+  font-family: "Forum",Laila, serif;
+  font-size: 1rem;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+section div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+section img {
+  width: 30%;
+  max-width: 12rem;
+  height: 12rem;
+  object-fit: cover;
+  border: 0.5rem solid #FFD6E1;
+  border-radius: 50%;
+}
+
+a {
+  color: #294B35;
+  margin-right: 0.5rem;
+}
+
+footer {
+  background-color: #294B35;
+  color: #F5F4E9;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+@media (max-width: 37.5rem) {
+  header {
+    padding: 1.5rem 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  main {
+    margin: 1rem auto;
+    padding: 0 1rem;
+  }
+
+  section div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section img {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}
